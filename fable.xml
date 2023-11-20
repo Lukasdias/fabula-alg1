@@ -3,7 +3,7 @@
         <agent x="175" y="250" text="Bem vindo ao página 1"/>
         <agent x="175" y="225" text="Próxima página" on-touch="_NEXT_PAGE"/>
         <agent x="0" y="0" text="ALG-1" color="darkolivegreen" font-size="75"/>
-        <agent x="0" y="500" text="string"/>
+        <agent x="0" y="100%" text="string"/>
     </page>
     <page background="bg.png">
         <agent x="175" y="250" text="Bem vindo ao página 2"/>
