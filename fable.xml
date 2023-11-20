@@ -14,7 +14,7 @@
     <page background="bg.png">
         <agent x="175" y="250" text="Bem vindo ao página 4"/>
         <agent x="175" y="225" text="Próxima página" on-touch="_NEXT_PAGE"/>
-        <agent x="175
+        <agent x="175" y="275" img="Idle (1).png" width="80" height="80"/>
     </page>
     <page background=" bg.png">
         <agent x="175" y="250" text="Bem vindo ao página 5"/>
