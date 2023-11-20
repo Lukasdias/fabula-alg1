@@ -1,16 +1,18 @@
 <fable>
     <page background="bg.png">
-        <agent x="50" y="450" text="Bem vindo ao fábula"/>
-        <agent x="50" y="400" text="Meu segundo texto  "/>
-        <agent x="50" y="350" text="Bem vindo ao fábula"/>
-        <agent x="50" y="300" text="Bem vindo ao fábula"/>
+        <agent x="50" y="450" text="Bem vindo ao página 1"/>
         <agent x="50" y="250" text="Próxima página" on-touch="_NEXT_PAGE"/>
     </page>
     <page background="bg.png">
-        <agent x="50" y="450" text="Bem vindo ao fábula 2"/>
-        <agent x="50" y="400" text="Meu segundo texto  "/>
-        <agent x="50" y="350" text="Bem vindo ao fábula"/>
-        <agent x="50" y="300" text="Bem vindo ao fábula"/>
-        <agent x="50" y="250" text="Bem vindo ao fábula"/>
+        <agent x="50" y="450" text="Bem vindo ao página 2"/>
+        <agent x="50" y="250" text="Página anterior" on-touch="_GOTO_PAGE:1"/>
+    </page>
+    <page background="bg.png">
+        <agent x="50" y="450" text="Bem vindo ao página 2"/>
+        <agent x="50" y="250" text="Página anterior" on-touch="_GOTO_PAGE:1"/>
+    </page>
+    <page background="bg.png">
+        <agent x="50" y="450" text="Bem vindo ao página 2"/>
+        <agent x="50" y="250" text="Página anterior" on-touch="_GOTO_PAGE:1"/>
     </page>
 </fable>
