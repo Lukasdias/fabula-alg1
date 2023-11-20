@@ -1,35 +1,5 @@
 <fable>
     <page background="bg.png">
         <agent x="175" y="250" text="Bem vindo ao página 1"/>
-        <agent x="175" y="225" text="Próxima página" on-touch="_NEXT_PAGE"/>
-        <agent x="0" y="0" text="ALG-1" color="darkolivegreen" font-size="75"/>
-        <agent x="0" y="0" text="ALG-2"/>
-        <agent x="250" y="0" text="ALG-3" />
-        <agent x="350" y="0" text="ALG-4" />
-        <agent x="450" y="0" text="ALG-6" />
-        <agent x="25" y="25" text="ALG7" />
-    </page>
-    <page background="bg.png">
-        <agent x="175" y="250" text="Bem vindo ao página 2"/>
-        <agent x="175" y="225" text="Próxima página" on-touch="_NEXT_PAGE"/>
-        </agent>
-    <page background="bg.png">
-        <agent x="175" y="250" text="Bem vindo ao página 3"/>
-        <agent x="175" y="225" text="Próxima página" on-touch="_NEXT_PAGE"/>
-    </page>
-    <page background="bg.png">
-        <agent x="175" y="250" text="Bem vindo ao página 4"/>
-        <agent x="175" y="225" text="Próxima página" on-touch="_NEXT_PAGE"/>
-        <agent x="175" y="275" img="Dead (10).png" width="80" height="80" drop-zone="alive">
-            <alive img="Idle (1).png" width="80" height="100"/>
-        </agent>
-        <agent img="portion.png" x="450" y="450" width="38" height="38" draggable="true" on-drop="alive" on-zone="dead" on-trigger="dead">
-            <dead x="-50"/>
-        </agent>
-    </page>
-    <page background="bg.png">
-        <agent x="175" y="255" text="Bem vindo ao página 5"/>
-        <agent x="175" y="225" text="Página Inicial" on-touch="_GOTO_PAGE:1"/>
-    </page>
     </page>
 </fable>
