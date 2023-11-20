@@ -17,6 +17,9 @@
         <agent x="175" y="275" img="Idle (1).png" width="80" height="80" drop-zone="restore">
             <restore img="Dead (10).png" width="80" height="100"/>
         </agent>
+        <agent img="portion.png" x="450" y="450" width="38" height="38" draggable="true" on-drop="restore" on-zone="lived" on-trigger="lived">
+            <lived x="-50"/>
+        </agent>
     </page>
     <page background="bg.png">
         <agent x="175" y="255" text="Bem vindo ao página 5"/>
