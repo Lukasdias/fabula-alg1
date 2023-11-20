@@ -14,12 +14,12 @@
     <page background="bg.png">
         <agent x="175" y="250" text="Bem vindo ao página 4"/>
         <agent x="175" y="225" text="Próxima página" on-touch="_NEXT_PAGE"/>
-        <agent x="175" y="250" img="Idle (1).png" width="80" height="80" drop-zone="restore">
+        <agent x="175" y="275" img="Idle (1).png" width="80" height="80" drop-zone="restore">
             <restore img="Dead (10).png" width="80" height="100"/>
         </agent>
     </page>
-    <page background=" bg.png">
-        <agent x="175" text="Bem vindo ao página 5"/>
+    <page background="bg.png">
+        <agent x="175" y="255" text="Bem vindo ao página 5"/>
         <agent x="175" y="225" text="Página Inicial" on-touch="_GOTO_PAGE:1"/>
     </page>
 </fable>
