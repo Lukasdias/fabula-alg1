@@ -2,27 +2,28 @@
     <page background="bg.png">
         <agent x="175" y="250" text="Bem vindo ao página 1"/>
         <agent x="175" y="225" text="Próxima página" on-touch="_NEXT_PAGE"/>
-    </page>
+        <agent </page>
     <page background="bg.png">
-        <agent x="175" y="250" text="Bem vindo ao página 2"/>
-        <agent x="175" y="225" text="Próxima página" on-touch="_NEXT_PAGE"/>
-    </page>
-    <page background="bg.png">
-        <agent x="175" y="250" text="Bem vindo ao página 3"/>
-        <agent x="175" y="225" text="Próxima página" on-touch="_NEXT_PAGE"/>
-    </page>
-    <page background="bg.png">
-        <agent x="175" y="250" text="Bem vindo ao página 4"/>
-        <agent x="175" y="225" text="Próxima página" on-touch="_NEXT_PAGE"/>
-        <agent x="175" y="275" img="Dead (10).png" width="80" height="80" drop-zone="alive">
-            <alive img="Idle (1).png" width="80" height="100"/>
+            <agent x="175" y="250" text="Bem vindo ao página 2"/>
+            <agent x="175" y="225" text="Próxima página" on-touch="_NEXT_PAGE"/>
         </agent>
-        <agent img="portion.png" x="450" y="450" width="38" height="38" draggable="true" on-drop="alive" on-zone="dead" on-trigger="dead">
-            <dead x="-50"/>
-        </agent>
-    </page>
-    <page background="bg.png">
-        <agent x="175" y="255" text="Bem vindo ao página 5"/>
-        <agent x="175" y="225" text="Página Inicial" on-touch="_GOTO_PAGE:1"/>
+        <page background="bg.png">
+            <agent x="175" y="250" text="Bem vindo ao página 3"/>
+            <agent x="175" y="225" text="Próxima página" on-touch="_NEXT_PAGE"/>
+        </page>
+        <page background="bg.png">
+            <agent x="175" y="250" text="Bem vindo ao página 4"/>
+            <agent x="175" y="225" text="Próxima página" on-touch="_NEXT_PAGE"/>
+            <agent x="175" y="275" img="Dead (10).png" width="80" height="80" drop-zone="alive">
+                <alive img="Idle (1).png" width="80" height="100"/>
+            </agent>
+            <agent img="portion.png" x="450" y="450" width="38" height="38" draggable="true" on-drop="alive" on-zone="dead" on-trigger="dead">
+                <dead x="-50"/>
+            </agent>
+        </page>
+        <page background="bg.png">
+            <agent x="175" y="255" text="Bem vindo ao página 5"/>
+            <agent x="175" y="225" text="Página Inicial" on-touch="_GOTO_PAGE:1"/>
+        </page>
     </page>
 </fable>
