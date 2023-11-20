@@ -1,4 +1,6 @@
 <fable>
-    <page>
+    <page background="bg.png">
+        <agent x="0" y="0" text="</page">
+        </agent>
     </page>
 </fable>
