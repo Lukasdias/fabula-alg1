@@ -2,6 +2,6 @@
     <page background="bg.png" soundtrack="song.mp3">
         <agent x="175" y="250" text="Bem vindo ao página 1"/>
         <agent x="400" y="0" img="Sign_back.png" width="42" height="42" />
-        <agent x="0" y="0"
+        <agent x="0" y="0" video="dancing_fish.mp4" width
     </page>
 </fable>
