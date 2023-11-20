@@ -12,10 +12,11 @@
         <agent x="175" y="225" text="Próxima página" on-touch="_NEXT_PAGE"/>
     </page>
     <page background="bg.png">
-        <agent x="175" y="250" text="Bem vindo ao página 3"/>
+        <agent x="175" y="250" text="Bem vindo ao página 4"/>
         <agent x="175" y="225" text="Próxima página" on-touch="_NEXT_PAGE"/>
+        <agent x="175
     </page>
-    <page background="bg.png">
+    <page background=" bg.png">
         <agent x="175" y="250" text="Bem vindo ao página 5"/>
         <agent x="175" y="225" text="Página Inicial" on-touch="_GOTO_PAGE:1"/>
     </page>
