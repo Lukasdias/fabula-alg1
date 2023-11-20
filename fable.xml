@@ -1,9 +1,9 @@
 <fable>
     <page background="bg.png">
-        <agent x="50" y="450" text="Bem vindo ao fábulas"/>
-        <agent x="50" y="400" text="Bem vindo ao fábulas"/>
-        <agent x="50" y="350" text="Bem vindo ao fábulas"/>
-        <agent x="50" y="300" text="Bem vindo ao fábulas"/>
-        <agent x="50" y="250" text="Bem vindo ao fábulas"/>
+        <agent x="50" y="450" text="Bem vindo ao fábula"/>
+        <agent x="50" y="400" text="Meu segundo texto  "/>
+        <agent x="50" y="350" text="Bem vindo ao fábula"/>
+        <agent x="50" y="300" text="Bem vindo ao fábula"/>
+        <agent x="50" y="250" text="Bem vindo ao fábula"/>
     </page>
 </fable>
