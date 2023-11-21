@@ -1,8 +1,6 @@
 <fable>
     <page background="bg.png">
-        <agent x="175" y="250" text="Bem vindo a página 1" on-touch="">
-            < x="175" y="265" text="Meu segundo texto" />
-        </agent>
+        <agent x="175" y="250" text="Bem vindo a página 1" />
         <agent x="400" y="0" img="Sign_back.png" width="42" height="42" />
     </page>
 </fable>
